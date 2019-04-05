@@ -1,0 +1,95 @@
+div	{
+	position: absolute;
+	height: 250px;
+	width: 300px;	
+}
+#main{
+	overflow: hidden;
+}
+
+.frame2_2{
+	transform: translateY(68px);
+}
+.hide{
+	opacity: 0;
+	visibility: hidden;
+
+}
+.frame2_4{
+	transform: translateY(-66px);
+}
+
+.fadeIn{
+	visibility: visible;
+	opacity:1;
+	transition: 2s ease-in-out;
+	-moz-transition: 2s ease-in-out;
+   -webkit-transition:  2s ease-in-out;
+
+}
+.fadeOut{
+	visibility: hidden;
+	opacity:0;
+	transition: 2s ease-in-out;
+	-moz-transition: 2s ease-in-out;
+   -webkit-transition:  2s ease-in-out;
+
+}
+.z9{
+	z-index: 10;
+}
+.slideUp{
+	transform: translateY(0px);
+	transition: 2s ease-in-out;
+	-moz-transition: 2s ease-in-out;
+   -webkit-transition:  2s ease-in-out;
+}
+
+.frame3_1{
+	transform: translateY(-66px);
+}
+.slideDownF23{
+	visibility: visible;
+	transform: translateY(66px);
+	transition: 2s ease-in-out;
+	-moz-transition: 2s ease-in-out;
+   -webkit-transition:  2s ease-in-out;
+}
+.slideDownF2_3{
+	transform: translateY(100px);
+	transition: 4s ease-in-out;
+	-moz-transition: 4s ease-in-out;
+   -webkit-transition:  4s ease-in-out;
+}
+#frame3Header{
+	background: url("../images/header.png");
+	border: 1px solid red;
+}
+.check{
+	border: 1px solid red;
+}
+#dots{
+	background: url("../images/dots.png");
+}
+
+#rBtn{
+	margin-top: 32px;
+	margin-right: 1px;
+	transform: translateX(280px);
+}
+.header{
+	transform: translateY(-50px);
+}
+.slideDownHeader{
+	transform: translateY(0px);
+	transition: 2s ease-in-out;
+	-moz-transition: 2s ease-in-out;
+   -webkit-transition:  2s ease-in-out;
+}
+
+#shopBtn{
+	margin-left: 108px;
+	margin-top: 116px;
+}
+
+
